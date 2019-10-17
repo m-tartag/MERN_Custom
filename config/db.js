@@ -11,7 +11,7 @@ const connectDB = async () => {
       useCreateIndex: true,
       useUnifiedTopology: true,
     });
-    console.log(chalk.green.inverse('MongoDB Connected..'));
+    console.log(chalk.green.inverse('MongoDB Connected...'));
   } catch (err) {
     console.error(err.messsage);
     process.exit(1);
